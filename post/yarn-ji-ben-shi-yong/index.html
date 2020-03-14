@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>yarn基本使用 | find</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://FDzhang.github.io/favicon.ico?v=1584196140044">
+<link rel="stylesheet" href="https://FDzhang.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="yarn基本使用
+
+类比npm基本使用
+
+yarn工具基本使用
+安装yarn工具：npm install -g yarn
+
+1、初始化包
+npm init
+npm init -y
+yarn init
+2、安装包
+npm install xx..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://FDzhang.github.io">
+        <img src="https://FDzhang.github.io/images/avatar.png?v=1584196140044" class="site-logo">
+        <h1 class="site-title">find</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://FDzhang.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">yarn基本使用</h2>
+            <div class="post-date">2020-03-14</div>
+            
+            <div class="post-content" v-pre>
+              <h3 id="yarn基本使用">yarn基本使用</h3>
+<ul>
+<li>类比npm基本使用</li>
+</ul>
+<pre><code>yarn工具基本使用
+安装yarn工具：npm install -g yarn
+
+1、初始化包
+npm init
+npm init -y
+yarn init
+2、安装包
+npm install xxx --save
+yarn add xxx
+3、移除包
+npm uninstall xxx
+yarn remove xxx
+4、更新包
+npm update xxx
+yarn upgrade xxx
+5、安装开发依赖的包
+npm install xxx --save-dev
+yarn add xxx --dev
+6、全局安装
+npm install -g xxx
+yarn global add xxx
+7、设置下载镜像的地址
+npm config set registry url
+yarn config set registry url
+8、安装所有依赖
+npm install
+npm install --production
+yarn install
+9、执行包
+npm run xxx
+yarn run xxx
+</code></pre>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://FDzhang.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
