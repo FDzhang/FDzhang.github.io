@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://FDzhang.github.io</id>
-    <title>find</title>
-    <updated>2020-03-14T14:32:48.924Z</updated>
+    <title>FD_zxq</title>
+    <updated>2020-03-15T03:27:35.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://FDzhang.github.io"/>
     <link rel="self" href="https://FDzhang.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>迷茫中前进</subtitle>
     <logo>https://FDzhang.github.io/images/avatar.png</logo>
     <icon>https://FDzhang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, find</rights>
+    <rights>All rights reserved 2020, FD_zxq</rights>
     <entry>
         <title type="html"><![CDATA[yarn基本使用]]></title>
         <id>https://FDzhang.github.io/post/yarn-ji-ben-shi-yong/</id>
